@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="AADL Diagram" name="ITU_Software" snapToGrid="true" version="0.12.0">
+  <properties key="independentObject" value="package ITU_Software"/>
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::PostBusInt.ParseCmd"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="203" height="50" x="20" y="20" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="203"/>
+      <points x="183" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::PostBusInt.ParseCmd"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="203" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="PostBusInt.ParseCmd"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::EONOFF.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="136" height="50" x="20" y="90" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="136"/>
+      <points x="116" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::EONOFF.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="136" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="EONOFF.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ClockInterrupt.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="180" height="50" x="20" y="160" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="180"/>
+      <points x="160" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ClockInterrupt.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="180" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ClockInterrupt.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ParseCmd.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="148" height="50" x="300" y="470" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="148"/>
+      <points x="128" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.3">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ParseCmd.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="148" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ParseCmd.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::SGNCC"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="20" y="300" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.9">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::SGNCC"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="SGNCC"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerBusInt"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="140" height="50" x="20" y="370" style="//@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="140"/>
+      <points x="120" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerBusInt"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="140" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerBusInt"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ClockInterrupt"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="143" height="50" x="243" y="20" style="//@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="143"/>
+      <points x="123" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ClockInterrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="143" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ClockInterrupt"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ColData.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="129" height="50" x="243" y="90" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="129"/>
+      <points x="109" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.4">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ColData.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ColData.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="170" height="50" x="243" y="160" style="//@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="170"/>
+      <points x="150" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.7 //@connections.11 //@connections.13 //@connections.15">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="170" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerParseCmd"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::RGNCC.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="128" height="50" x="243" y="230" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="128"/>
+      <points x="108" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.5">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::RGNCC.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="128" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="RGNCC.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::EONOFF"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="243" y="300" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::EONOFF"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="EONOFF"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::RGNCC"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="243" y="370" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.5">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::RGNCC"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="RGNCC"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::TimeMan"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="413" y="20" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.10">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::TimeMan"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="TimeMan"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::InterruptProcess"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="163" height="50" x="466" y="90">
+      <graphicsAlgorithmChildren xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" width="163" height="50" style="//@styles.1/@styles.2"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::InterruptProcess"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="163" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="InterruptProcess"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ParseCmd"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="111" height="50" x="550" y="470" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="111"/>
+      <points x="91" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ParseCmd"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="111" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ParseCmd"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ESLC.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="111" height="50" x="466" y="230" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="111"/>
+      <points x="91" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.6">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ESLC.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="111" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ESLC.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.FreTime"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="238" height="50" x="466" y="300" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="238"/>
+      <points x="218" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.7">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.FreTime"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="238" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerParseCmd.FreTime"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerBusInt.ParseCmd"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="226" height="50" x="466" y="370" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="226"/>
+      <points x="206" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.8">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerBusInt.ParseCmd"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="226" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerBusInt.ParseCmd"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::SGNCC.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="127" height="50" x="724" y="20" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="127"/>
+      <points x="107" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.9">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::SGNCC.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="127" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="SGNCC.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::TimeMan.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="136" height="50" x="550" y="20" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="136"/>
+      <points x="116" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.10">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::TimeMan.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="136" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="TimeMan.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.ESLC"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="219" height="50" x="724" y="160" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="219"/>
+      <points x="199" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.ESLC"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerParseCmd.ESLC"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ITU_System"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="123" height="50" x="724" y="230" style="//@styles.1/@styles.3" cornerHeight="25" cornerWidth="25"/>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.14">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ITU_System"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="123" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ITU_System"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::PostBusInt"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="117" height="50" x="724" y="300" style="//@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="117"/>
+      <points x="97" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::PostBusInt"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="117" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="PostBusInt"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ESLC"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="724" y="370" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ESLC"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ESLC"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::FreTime"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="982" y="20" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.12">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::FreTime"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="FreTime"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::FreTime.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="130" height="50" x="982" y="90" style="//@styles.1/@styles.1/@styles.0">
+      <points x="20"/>
+      <points x="130"/>
+      <points x="110" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.12">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::FreTime.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="130" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="FreTime.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.EONOFF"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="244" height="50" x="982" y="160" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="244"/>
+      <points x="224" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.13">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.EONOFF"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="244" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerParseCmd.EONOFF"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ITU_System.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="160" height="50" x="982" y="230" style="//@styles.1/@styles.3/@styles.0" cornerHeight="25" cornerWidth="25"/>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.14">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ITU_System.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="160" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ITU_System.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.SGNCC"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="235" height="50" x="982" y="300" style="//@styles.1/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="235"/>
+      <points x="215" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::AnswerParseCmd.SGNCC"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="235" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="AnswerParseCmd.SGNCC"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier ITU_Software::ColData"/>
+    <properties key="is_layed_out" value="true"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="982" y="370" style="//@styles.1/@styles.1">
+      <points x="20"/>
+      <points x="100"/>
+      <points x="80" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.4">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="is_manually_positioned" value="true"/>
+      <properties key="independentObject" value="classifier ITU_Software::ColData"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ColData"/>
+    </children>
+  </children>
+  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="label" font="//@fonts.0"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" lineVisible="true" transparency="0.0" id="classifier" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+    <styles lineWidth="2" lineStyle="DASH" id="thread" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <styles lineWidth="3" lineStyle="UNSPECIFIED" id="thread-implementation" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+    </styles>
+    <styles lineWidth="2" lineStyle="UNSPECIFIED" id="process" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <styles lineWidth="3" lineStyle="UNSPECIFIED" id="process-implementation" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+    </styles>
+    <styles lineWidth="2" lineStyle="UNSPECIFIED" id="subprogram" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+    <styles lineWidth="2" lineStyle="UNSPECIFIED" id="system" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <styles lineWidth="3" lineStyle="UNSPECIFIED" id="system-implementation" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+    </styles>
+  </styles>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineStyle="DASH" lineVisible="true" id="implements" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="generalization-arrowhead" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.22/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::PostBusInt.ParseCmd"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.0" end="//@children.10/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::EONOFF.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.6/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::ClockInterrupt.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.0" end="//@children.14/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::ParseCmd.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.29/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::ColData.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.9/@anchors.0" end="//@children.11/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::RGNCC.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.15/@anchors.0" end="//@children.23/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::ESLC.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.16/@anchors.0" end="//@children.8/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::AnswerParseCmd.FreTime"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.17/@anchors.0" end="//@children.5/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::AnswerBusInt.ParseCmd"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.18/@anchors.0" end="//@children.4/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::SGNCC.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.19/@anchors.0" end="//@children.12/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::TimeMan.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.20/@anchors.0" end="//@children.8/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::AnswerParseCmd.ESLC"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.25/@anchors.0" end="//@children.24/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::FreTime.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.26/@anchors.0" end="//@children.8/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::AnswerParseCmd.EONOFF"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.27/@anchors.0" end="//@children.21/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::ITU_System.impl"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.28/@anchors.0" end="//@children.8/@anchors.0">
+    <properties key="independentObject" value="realization ITU_Software::AnswerParseCmd.SGNCC"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <colors red="227" green="238" blue="249"/>
+  <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <fonts name="Arial" size="10" bold="true"/>
+</pi:Diagram>
