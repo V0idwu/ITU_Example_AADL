@@ -1,0 +1,36 @@
+--Instructions
+--AADL property sets for aviation modeling 
+--
+--
+
+property set SCS_Predefined_PropertySets is
+	
+	-- properties for data
+	-- 数据名称
+	-- 数据别称
+	-- 数据类型
+		Data_Type : enumeration
+     	(Array, Boolean, Character, Enum, Float, Fixed, Integer, String, Struct, Union) 
+     	applies to ( data );
+	-- 组成
+		Data_Component : list of classifier ( data ) applies to (data);
+	-- 数据初始值
+		Data_InitValue : list of aadlstring applies to ( data );
+	-- 数据来源地/数据目的地
+	-- 精度/分辨率
+		Data_ResolutionRatio : aadlstring applies to (data);
+	-- 范围
+		Data_Range : aadlinteger applies to (data);
+	-- 频度
+		Data_Frequency : aadlstring applies to (data);
+	-- 度量单位
+	-- 数据权限
+	-- 数据描述
+	-- 可选扩展
+		Data_Comment : aadlstring applies to (data);
+	
+	-- properties for process, thread
+
+	
+	
+end SCS_Predefined_PropertySets;
